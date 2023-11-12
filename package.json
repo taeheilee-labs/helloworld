@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "core-js": "^3.33.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
