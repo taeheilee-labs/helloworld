@@ -1,4 +1,4 @@
 #!/bin/sh
     
-start helloworld 
+node helloworld 
 
