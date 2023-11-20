@@ -1,0 +1,12 @@
+[Unit]
+Description=Hello world Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /usr/local/helloworld/helloworld.js
+User=ec2-user
+Restart=always
+
+[Install]
+WantedBy=default.target
+
